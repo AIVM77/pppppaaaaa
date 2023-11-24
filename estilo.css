@@ -1,0 +1,93 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+body{
+	background-color: beige;
+
+}
+
+.titulo {
+	padding: 40px;
+}
+
+.menu1{
+	width: 80%;
+	margin: auto;
+	border-radius: 10px;
+	list-style-type: none;
+	background-image: url(https://st2.depositphotos.com/1043285/8526/i/600/depositphotos_85263502-stock-photo-soil.jpg);
+  
+}
+nav li {
+	display: inline-flex;
+}
+nav a {
+	padding: 20px;
+	width: 150px;
+}
+nav ul a:hover {
+	background-color: rgba(109, 25, 25, 0.733);
+	border-radius: 20px;
+}
+
+.contenido {
+	display: flex;
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+}
+.contenido .articulo {
+	width: 70%;
+	margin: auto;
+}
+.contenido .articulo div {
+	width: 90%;
+	padding: 25px;
+	background-color: burlywood;
+	border-radius: 15px;
+	margin-bottom: 30px;
+}
+.contenido .articulo img {
+	width: 200px;
+	border-radius: 15px;
+}
+.contenido .secundario {
+	width: 30%;
+}
+.contenido .secundario p {
+	border-radius: 15px;
+	padding: 20px;
+	height: 700px;
+}
+
+.piedepagina {
+	background-color: #0a476b;
+	margin-top: 50px;
+	height: 70px;
+	content: center;
+}
+.piedepagina h3{
+	float: left;
+	align-content: center;
+	align-items: center;
+}
+}
+
+.letramenu{
+	color: white;
+	list-style-type: none;
+	background-color: aqua;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.secundario p{
+	background-color: burlywood;
+}
+
+
+
